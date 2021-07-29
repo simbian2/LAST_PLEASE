@@ -1,9 +1,12 @@
 import {createContext} from 'react'
 
 const initalState = {
-    loadding: false,
-    commentItem:[],
-    error:null
+    FAQ:[
+        {
+            answer:'test',
+            Question:'test',
+        }
+    ]
 }
 
 //const store = initalState

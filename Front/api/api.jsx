@@ -31,3 +31,23 @@ const response = await fetch('http://localhost:4000/calculator2',options) //rest
 
 }
 
+export const getFAQIncome = async () => {
+    //code block
+    //fetch 
+    // fetch(url:stirng , option:object)
+    // request method 'POST'
+
+    let options = {
+        method:'GET'
+    }
+        const response = await fetch('http://localhost:4000/getFAQIncome',options) //restful api 
+        const data = await response.json()
+
+        const result = data.map( obj => {
+            return {...obj, Question:obj.question, Answer:obj.answer}
+        } )       
+
+        dispatch({type:'GET_FAQ',payload:result})
+}
+    
+

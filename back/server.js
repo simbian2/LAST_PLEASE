@@ -61,6 +61,21 @@ app.post('/calculator2',async(req,res,next)=>{
     }
 })
 
+app.get('/getFAQIncome',async(req,res,next)=>{
+
+        const data = await FAQ.findAll({
+            where:{Category:'소득'}
+        })
+
+        console.log(data)
+
+        // res.json({question:data.Question, answer:data.Answer,})
+        res.json(
+            {...data}
+        )
+        
+
+})
 
 app.get('/',(req,res)=>{
     res.send('sadgsdg')
