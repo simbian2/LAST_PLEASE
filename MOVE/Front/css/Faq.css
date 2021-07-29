@@ -1,0 +1,47 @@
+.FaqList{
+    width:300px;
+    height:100px;
+    background-color: rgb(0,91,172);
+    text-align: center;
+    border-radius:15px;
+    margin-top:50px;
+    transform: translateX(50%);
+}
+
+.FaqList > a{
+    height:100px;
+    vertical-align:middle;
+    color: #fff;
+    font-family: "LH_B";
+    font-size:30px;
+}
+
+.FaqBoard{
+    width: 1250px;
+    height: 700px;
+    margin: 100px auto 0 auto;
+    border: 3px solid rgb(0,91,172);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.FaqTable{
+    width: 100%;
+}
+
+.FaqTable > thead{
+    height: 50px;
+}
+
+.FaqTable > thead> tr > th:nth-child(1){
+    width: 233.633px;
+}
+
+.FaqTable > thead> tr > th:nth-child(2){
+    width: 1012.620px;
+}
+
+.FaqTable > tbody > tr{
+    text-align: center;
+    height: 35px;
+}

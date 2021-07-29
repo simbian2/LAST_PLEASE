@@ -80,6 +80,14 @@ app.get('/getFAQIncome',async(req,res,next)=>{
 app.get('/',(req,res)=>{
     res.send('sadgsdg')
 })
+app.get('/lolo',(req,res)=>{
+    res.send('lolo')
+})
+app.get('/ff',(req,res)=>{
+    res.send('asdf')
+})
+
+
 
 app.listen(4000,()=>{
     console.log('start server port 4000')    

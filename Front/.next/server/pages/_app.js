@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Store_reducer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../Store/reducer */ "./Store/reducer.jsx");
 
 
-var _jsxFileName = "C:\\Users\\KGA_20\\TEAM_COM\\AllAboutSHT\\Front\\pages\\_app.jsx";
+var _jsxFileName = "C:\\Users\\KGA_20\\TEAM_COM\\Front\\pages\\_app.jsx";
 
 
 
